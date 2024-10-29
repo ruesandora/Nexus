@@ -99,4 +99,18 @@ cargo nexus verify
 
 <img width="417" alt="Ekran Resmi 2024-06-14 11 02 40" src="https://github.com/ruesandora/Nexus/assets/101149671/b6468869-3274-4b05-857d-a82263729585">
 
+
+# Network Cli
+Screen açıp kodu çalıştıralım. Yeni bir versiyonu varsa ilk önce onu indirecek
+
+
+```console
+screen -S nexus
+curl https://cli.nexus.xyz/ | sh
+```
+
+Bir süre bekledikten sonra ctrl A D ile kapatabilirsin.
+İşlem başarılı olduysa ```prover-id```  ```/root/.nexus/``` konumundan alabilirsin.  
+
+
 > bu kadardı işlemler.
